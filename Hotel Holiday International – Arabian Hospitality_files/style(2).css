@@ -1,0 +1,67 @@
+/*
+Theme Name: WEENstudio Child
+Theme URI: https://weenstudio.com/
+Author: Renjith
+Author URI: https://weenstudio.com/
+Description: Weenstudio WordPress Theme
+Template:    weenstudio
+Version: 1.0.0
+License: GNU General Public License V2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
+Text Domain: weenstudio-child
+
+ START YOUR CHILD THEME CSS HERE
+*/
+#socket .copyright {
+    float: none;
+}
+.blz-copyright .blaze-popup {
+    position: relative;
+}
+.blz-copyright .blz-popup-tool {
+    position: absolute;
+    left: -60px;
+    text-align: center;
+    width: 200px;
+    max-height: 210px;
+    background: url(/script/gradient.jpg) repeat-x;
+    padding: 5px 10px 10px;
+    border-radius: 3px;
+    z-index: 99999999999999999;
+}
+.blz-copyright .blz-popup-tool .blz-img {
+    display: block;
+    margin: 0.5em auto 0.8em auto!important;
+    background: url(/script/M-logo.svg);
+    width: 140px;
+    height: 112px;
+}
+.blz-copyright .blz-popup-tool span {
+    color: #000;
+    text-align: center;
+    font-family: inherit;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .02em;
+}
+.blz-copyright .blz-popup-tool::after {
+  position: absolute;
+  content: '';
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-top: 10px solid #f2f2f2;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  width: 0;
+  height: 0;
+}
+.gdlr-core-alert-box-item .gdlr-core-alert-box-item-inner{
+	background-color: #000000!important;
+	    width: 90%!important;
+    height: 37px!important;
+    padding: 4px 8px 4px 8px!important;
+    border-radius: 15px
+}
